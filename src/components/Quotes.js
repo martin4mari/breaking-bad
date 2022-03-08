@@ -20,7 +20,7 @@ function Quotes() {
          <section className="section">
 
             <div className="quote-container">
-                <button className="button" onClick={getMenu}>Mandale</button>
+                <button className="button" onClick={getMenu}>Generar</button>
 
                 <blockquote className='blockquote'>
                     <cite>{quote.map((r) => r.quote)}</cite>
